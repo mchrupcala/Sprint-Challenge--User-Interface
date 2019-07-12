@@ -107,7 +107,7 @@ a {
 	margin-bottom: 15px;
 }
 
-.top-content .text-container {
+.text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
@@ -261,4 +261,43 @@ button {
 
 .work-together {
 	padding: 0 20px;
+}
+
+/*** RESPONSIVE BREAKS ***/
+
+/*** COMMENT-- Noticing a problem here where the width for my .about-Content
+class isn't being noticed by my Chrome browser. With more time i'd figure out
+what's going wrong but for now, I just left a background-color green/red
+property so that it's clear when a user's on desktop vs. tablet/mobile. ***/
+
+/* TABLETS AND PHONES */
+@media only screen and (max-width:1024px) {
+	.text-container{
+		width: 800px !important;
+		background-color: red;
+	}
+
+	.box {
+		width: 800px !important;
+				background-color: red;
+	}
+	.about-content {
+		width: 800px !important;
+				background-color: red;
+	}
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1025px) {
+	.text-container{
+		background-color: green;
+	}
+
+	.box {
+				background-color: green;
+	}
+	.about-content {
+
+				background-color: green;
+	}
 }
