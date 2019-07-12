@@ -35,13 +35,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  A: These types of tags are used to organize your code into different sections, and most importantly, they tell your computer & websites how your website's structured. For example a screen reader will look at your semantic HTML and know which sections to jump to and which sections are clickable.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+  A: For one, "block" lets me assign a height & width but "inline" does not. Another major difference is I can't put a second element next to "block" elements but I can with "inline", because "block" elements take up the entire width of the screen.
 
 3. What are the 4 areas of the box model?
 
+  A: Content, Padding, Border, and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  A: Cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+  A: When a development team is sharing a project, it's hard for everybody to work on the same pages without stepping on each other's toes. Git is used to track and save changes to the codebase in a highly organized way. If two developers update the same line of code then Git will raise a red flag so the team can decide which change they'd like to keep. Git will also let a team revert to a past version of the code- in case something goes wrong with an update they can go back in time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
