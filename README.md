@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+<!--# Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -26,6 +26,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
+-->
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -34,13 +35,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  A: These types of tags are used to organize your code into different sections, and most importantly, they tell your computer & websites how your website's structured. For example a screen reader will look at your semantic HTML and know which sections to jump to and which sections are clickable.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+  A: For one, "block" lets me assign a height & width but "inline" does not. Another major difference is I can't put a second element next to "block" elements but I can with "inline", because "block" elements take up the entire width of the screen.
 
 3. What are the 4 areas of the box model?
 
+  A: Content, Padding, Border, and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  A: Cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+  A: When a development team is sharing a project, it's hard for everybody to work on the same pages without stepping on each other's toes. Git is used to track and save changes to the codebase in a highly organized way. If two developers update the same line of code then Git will raise a red flag so the team can decide which change they'd like to keep. Git will also let a team revert to a past version of the code- in case something goes wrong with an update they can go back in time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +63,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -66,13 +77,13 @@ Follow these steps for completing your project.
 Your finished project must include all of the following requirements:
 
 ### Home Page
-
+<!--
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ ] Link the `About` navigation item to the [about.html](about.html) page-->
 
-You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
+<!--You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
 * [ ] box1: `teal`
 * [ ] box2: `gold`
@@ -83,7 +94,9 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box7: `darkorchid`
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ ] box10: `dodgerblue`  -->
+
+<!--
 
 ### About Page
 
@@ -94,7 +107,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
-In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.  -->
 
 ## Stretch Problems
 
